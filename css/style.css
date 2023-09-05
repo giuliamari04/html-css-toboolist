@@ -29,12 +29,14 @@ main{
     align-items: center;
 }
 .bottone {
-    
     padding: 5px 10px; 
     border: none; 
     border-radius: 5px; 
     cursor: pointer; 
   }
+.contenitore-bottoni{
+    margin-bottom: 2%;
+}
 .azul{
     background-color: rgb(71, 173, 241);
     color: aliceblue;
@@ -44,4 +46,35 @@ main{
     background-color: aliceblue;
     color: gray;
     border: 20px solid gray;
+}
+
+.lista-senza-punti{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+.check-verdi{
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  background-color:white;
+  border-radius: 50%; 
+  text-align: center; 
+  font-size: 16px; 
+  color:green;
+  margin-right: 10px; 
+  border: 2px solid green;
+}
+
+.cross-rossi{
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    background-color:white;
+    border-radius: 50%; 
+    text-align: center; 
+    font-size: 16px; 
+    color:red;
+    margin-right: 10px; 
+    border: 2px solid red;
+
 }
