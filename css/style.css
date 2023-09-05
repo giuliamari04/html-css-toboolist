@@ -85,6 +85,7 @@ main{
     padding: 5px 10px; 
     margin-right: 5px; 
     font-size: small;
+    border: 0;
 }
 .viola{
     background-color: rgb(155, 113, 228);
