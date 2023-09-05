@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgb(132, 130, 132);
+    background-color:rgb(224, 228, 230);
 }
 header{
     background-color: rgb(255, 255, 255);
@@ -15,18 +15,25 @@ header{
 
 main{
     background-color:rgb(255, 255, 255);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
+    height: 628px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
 
 }
-
+.padding{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contenitore-img{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
 .contenitore {
     display: flex;
     align-items: center;
+    padding-top: 3%;
 }
 .bottone {
     padding: 5px 10px; 
@@ -36,6 +43,7 @@ main{
   }
 .contenitore-bottoni{
     margin-bottom: 2%;
+    padding-top: 2%;
 }
 .azul{
     background-color: rgb(71, 173, 241);
@@ -45,12 +53,13 @@ main{
 .bianco{
     background-color: aliceblue;
     color: gray;
-    border: 20px solid gray;
+    border: 1px solid gray;
 }
 
 .lista-senza-punti{
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
+    line-height: 2;
 }
 .check-verdi{
   display: inline-block; 
@@ -84,7 +93,7 @@ main{
     border-radius: 15px; 
     padding: 5px 10px; 
     margin-right: 5px; 
-    font-size: small;
+    font-size:50%;
     border: 0;
 }
 .viola{
